@@ -1,0 +1,96 @@
+@Book{Miller,
+  author    = {Miller, Bradley N. and Ranum, David L.},
+  publisher = {Franklin Beedle & Associates},
+  title     = {Problem Solving with Algorithms and Data Structures Using Python},
+  isbn      = {9781590282571},
+  pages     = {438},
+}
+
+@Book{Cormen2009,
+  author    = {Cormen, Thomas H. and Leiserson, Charles Eric and Rivest, Ronald L. and Stein, Clifford},
+  publisher = {The MIT Press},
+  title     = {Introduction to Algorithms},
+  year      = {2009},
+  isbn      = {9780262033848},
+}
+
+@Misc{MergeSortWiki,
+  author       = {Wikipedia},
+  howpublished = {\url{http://en.wikipedia.org/w/index.php?title=Merge\%20sort&oldid=1095865966}},
+  note         = {[Online; accessed 25-August-2022]},
+  title        = {{Merge sort} --- {W}ikipedia{,} The Free Encyclopedia},
+  year         = {2022},
+}
+
+@Misc{woltmann_2022,
+  author    = {Woltmann, Sven},
+  month     = {Aug},
+  title     = {Merge sort – algorithm, source code, Time Complexity},
+  year      = {2022},
+  journal   = {HappyCoders.eu},
+  publisher = {HappyCoders.eu},
+  url       = {https://www.happycoders.eu/algorithms/merge-sort/},
+}
+
+@Misc{mergesortlinked,
+  month   = {Jul},
+  title   = {Merge sort for linked lists},
+  year    = {2022},
+  journal = {GeeksforGeeks},
+  url     = {https://www.geeksforgeeks.org/merge-sort-for-linked-list/},
+}
+
+@Misc{jackson_2022,
+  author    = {Jackson, Ian},
+  month     = {May},
+  title     = {Mergesort For Linked Lists},
+  year      = {2022},
+  journal   = {Mergesort for linked lists},
+  publisher = {Chiark},
+  url       = {https://www.chiark.greenend.org.uk/~sgtatham/algorithms/listsort.html},
+}
+
+@Misc{WoltmannQuickSort,
+  author    = {Woltmann, Sven},
+  month     = {Jul},
+  title     = {Quicksort – algorithm, source code, Time Complexity},
+  year      = {2022},
+  journal   = {HappyCoders.eu},
+  publisher = {HappyCoders.eu},
+  url       = {https://www.happycoders.eu/algorithms/quicksort/},
+}
+
+@Misc{wiki:Quicksort,
+  author       = {Wikipedia},
+  howpublished = {\url{http://en.wikipedia.org/w/index.php?title=Quicksort&oldid=1105928267}},
+  note         = {[Online; accessed 25-August-2022]},
+  title        = {{Quicksort} --- {W}ikipedia{,} The Free Encyclopedia},
+  year         = {2022},
+}
+
+@Misc{geeksforgeeks_hybridquick,
+  month   = {Aug},
+  title   = {Advanced quick sort (hybrid algorithm)},
+  year    = {2021},
+  journal = {GeeksforGeeks},
+  url     = {https://www.geeksforgeeks.org/advanced-quick-sort-hybrid-algorithm},
+}
+
+@Misc{gries_2018,
+  author    = {Gries, David},
+  title     = {Essential Improvements to basic quicksort},
+  year      = {2018},
+  journal   = {JavaHyperText},
+  publisher = {Cornell University Department of Computer Science},
+  url       = {https://www.cs.cornell.edu/courses/JavaAndDS/files/sort3Quicksort3.pdf},
+}
+
+@Misc{iterativequick,
+  month   = {Jul},
+  title   = {Iterative quick sort},
+  year    = {2022},
+  journal = {GeeksforGeeks},
+  url     = {https://www.geeksforgeeks.org/iterative-quick-sort/},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
