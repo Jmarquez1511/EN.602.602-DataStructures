@@ -1,0 +1,117 @@
+----------------------------------------PREORDER TREE-----------------------------------------
+                                        ->M,19
+                              ->LM,39
+                                        ->L,20
+                    ->JKLMVW,80
+                                                  ->K,10
+                                        ->JKV,20
+                                                            ->J,5
+                                                  ->JV,10
+                                                            ->V,5
+                              ->JKVW,41
+                                        ->W,21
+          ->DEFJKLMNVW,169
+                              ->E,42
+                    ->DEFN,89
+                                                  ->D,11
+                                        ->DF,23
+                                                  ->F,12
+                              ->DFN,47
+                                        ->N,24
+->ABCDEFGHIJKLMNOPQRSTUVWXYZ,413
+                                        ->R,25
+                              ->RT,50
+                                        ->T,25
+                    ->GPQRTUXYZ,106
+                                                  ->P,13
+                                        ->GP,27
+                                                  ->G,14
+                              ->GPQUXYZ,56
+                                                                      ->Z,3
+                                                            ->QXZ,6
+                                                                                ->Q,1
+                                                                      ->QX,3
+                                                                                ->X,2
+                                                  ->QXYZ,14
+                                                            ->Y,8
+                                        ->QUXYZ,29
+                                                  ->U,15
+          ->ABCGHIOPQRSTUXYZ,244
+                                                  ->B,16
+                                        ->BI,32
+                                                  ->I,16
+                              ->BCHI,66
+                                                  ->C,17
+                                        ->CH,34
+                                                  ->H,17
+                    ->ABCHIOS,138
+                                        ->S,35
+                              ->AOS,72
+                                                  ->O,18
+                                        ->AO,37
+                                                  ->A,19
+----------------------------------------------------------------------------------------------
+----------------------------------------OUTPUT SUMMARY----------------------------------------
+File name: Input\ClearText.txt
+Total number of lines compressed: 5
+Compression improvement of 550 bits
+----------------------------------------------------------------------------------------------
+---------------------------------------LINE BREAKDOWN-----------------------------------------
+Line 1
+Input: Sally sells seashells by the seashore.
+Valid String: SALLYSELLSSEASHELLSBYTHESEASHORE
+Compressed binary code: 11101111100010001101101111001000010001111011100101111111101101101000010001111011000101101100111011010111001011111111011011111101000010
+Bit count improvement: 122 
+
+Line 2
+Input: Peter Piper picked a peck of pickled peppers a peck of pickled peppers Peter Piper picked.
+Valid String: PETERPIPERPICKEDAPECKOFPICKLEDPEPPERSAPECKOFPICKLEDPEPPERSPETERPIPERPICKED
+Compressed binary code: 10100010100101010001010011001101000101000101001100111010001000100110011111101000101101000100111100110110100110011101000100000101001100101000101010010100010100011101111110100010110100010011110011011010011001110100010000010100110010100010101001010001010001110101000101001010100010100110011010001010001010011001110100010001001100
+Bit count improvement: 266 
+
+Line 3
+Input: Houston, the Eagle has landed.
+Valid String: HOUSTONTHEEAGLEHASLANDED
+Compressed binary code: 11011111101011111101001111100111100111011010010111111010100010101101111111111000011111101110110001001100
+Bit count improvement: 88 
+
+Line 4
+Input: Is that your final answer?
+Valid String: ISTHATYOURFINALANSWER
+Compressed binary code: 1100111101001110111111110011011011111010111100001101110010111111110001111110111111000110101000
+Bit count improvement: 74 
+
+Line 5
+Input: 
+Valid String: 
+Compressed binary code: 
+Bit count improvement: 0 
+
+----------------------------------------------------------------------------------------------
+--------------------------------------FREQUENCY TABLE-----------------------------------------
+A:19
+B:16
+C:17
+D:11
+E:42
+F:12
+G:14
+H:17
+I:16
+J:5
+K:10
+L:20
+M:19
+N:24
+O:18
+P:13
+Q:1
+R:25
+S:35
+T:25
+U:15
+V:5
+W:21
+X:2
+Y:8
+Z:3

@@ -1,0 +1,14 @@
+THIS IS A TEST
+-A+B+C4A5
++AB
++A*BC
+* + A B C
+* + A B C		
++ + A * B C D /
++ + A * B C D E
+* + A B + C D
++ * A B * C D
++ + + A B C D
+		+AB		+A*BC
+				* + A B C
++A*BC+A*BC+A*BC+

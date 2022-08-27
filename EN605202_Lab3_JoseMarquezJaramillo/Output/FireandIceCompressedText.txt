@@ -1,0 +1,215 @@
+----------------------------------------PREORDER TREE-----------------------------------------
+                                        ->M,19
+                              ->LM,39
+                                        ->L,20
+                    ->ELM,81
+                              ->E,42
+          ->DEJLMNRVW,172
+                                        ->W,21
+                              ->DJVW,42
+                                                            ->J,5
+                                                  ->JV,10
+                                                            ->V,5
+                                        ->DJV,21
+                                                  ->D,11
+                    ->DJNRVW,91
+                                        ->N,24
+                              ->NR,49
+                                        ->R,25
+->1234567ABCDEFGHIJKLMNOPQRSTUVWXYZÂ,422
+                                        ->T,25
+                              ->FPT,50
+                                                  ->F,12
+                                        ->FP,25
+                                                  ->P,13
+                    ->1234BFGPTUYZ,110
+                                                  ->G,14
+                                        ->GU,29
+                                                  ->U,15
+                              ->1234BGUYZ,60
+                                                                      ->Z,3
+                                                            ->1234Z,7
+                                                                                          ->1,1
+                                                                                ->12,2
+                                                                                          ->2,1
+                                                                      ->1234,4
+                                                                                          ->3,1
+                                                                                ->34,2
+                                                                                          ->4,1
+                                                  ->1234YZ,15
+                                                            ->Y,8
+                                        ->1234BYZ,31
+                                                  ->B,16
+          ->1234567ABCFGHIKOPQSTUXYZÂ,250
+                                                  ->I,16
+                                        ->CI,33
+                                                  ->C,17
+                              ->CIS,68
+                                        ->S,35
+                    ->567ACHIKOQSXÂ,140
+                                                  ->H,17
+                                        ->HO,35
+                                                  ->O,18
+                              ->567AHKOQXÂ,72
+                                                                                          ->5,1
+                                                                                ->56,2
+                                                                                          ->6,1
+                                                                      ->567Q,4
+                                                                                          ->7,1
+                                                                                ->7Q,2
+                                                                                          ->Q,1
+                                                            ->567QXÂ,8
+                                                                                ->X,2
+                                                                      ->XÂ,4
+                                                                                ->Â,2
+                                                  ->567KQXÂ,18
+                                                            ->K,10
+                                        ->567AKQXÂ,37
+                                                  ->A,19
+----------------------------------------------------------------------------------------------
+----------------------------------------OUTPUT SUMMARY----------------------------------------
+File name: Input\FireandIce.txt
+Scanned and added the following characters to the dictionary
+['Â', '1', '2', '3', '4', '5', '6', '7']
+Total number of lines compressed: 17
+Compression improvement of 729 bits
+----------------------------------------------------------------------------------------------
+---------------------------------------LINE BREAKDOWN-----------------------------------------
+Line 1
+Input: Robert Frost â€“ Fire & Ice 
+Valid String: ROBERTFROSTÂFIREICE
+Compressed binary code: 0111111011011100101111000100100111111011101100011110011100101100001110011100011001001
+Bit count improvement: 67 
+
+Line 2
+Input: Some say the world will end in fire,
+Valid String: SOMESAYTHEWORLDWILLENDINFIRE
+Compressed binary code: 110111101000000111011111110110110001110000101001110101110001010110100110000001000100101100101111000011010010110000111001
+Bit count improvement: 104 
+
+Line 3
+Input: Some say in ice.
+Valid String: SOMESAYINICE
+Compressed binary code: 11011110100000011101111111011011100001101100011001001
+Bit count improvement: 43 
+
+Line 4
+Input: From what Iâ€™ve tasted of desire
+Valid String: FROMWHATIÂVETASTEDOFDESIRE
+Compressed binary code: 100100111111010000010011100111111000110001111001101010100110001111111011000001010111110110010010110011101110000111001
+Bit count improvement: 91 
+
+Line 5
+Input: I hold with those who favour fire.
+Valid String: IHOLDWITHTHOSEWHOFAVOURFIRE
+Compressed binary code: 1100011100111010001010110100110001000111001000111001110111010010100111001110110010111110101011110110101011110010110000111001
+Bit count improvement: 92 
+
+Line 6
+Input: But if it had to perish twice,
+Valid String: BUTIFITHADTOPERISHTWICE
+Compressed binary code: 10111101011000110001001011000100011100111110101110001110110011001011111000110111100100001001100011001001
+Bit count improvement: 80 
+
+Line 7
+Input: I think I know enough of hate
+Valid String: ITHINKIKNOWENOUGHOFHATE
+Compressed binary code: 11000100011100110000110111101110001111010110111010100001011011101101011010011100111011001011100111111000001
+Bit count improvement: 77 
+
+Line 8
+Input: To say that for destruction ice
+Valid String: TOSAYTHATFORDESTRUCTIONICE
+Compressed binary code: 100011101110111111101101100011100111111000100101110101110101100111011000011110101110011000110001110101101100011001001
+Bit count improvement: 91 
+
+Line 9
+Input: Is also great
+Valid String: ISALSOGREAT
+Compressed binary code: 110001101111110001110111101101000111001111111000
+Bit count improvement: 40 
+
+Line 10
+Input: And would suffice.
+Valid String: ANDWOULDSUFFICE
+Compressed binary code: 111110110010110100111011010100010101111011010110010100101100011001001
+Bit count improvement: 51 
+
+Line 11
+Input: 1
+Valid String: 1
+Compressed binary code: 101100100
+Bit count improvement: -1 
+
+Line 12
+Input: 2
+Valid String: 2
+Compressed binary code: 101100101
+Bit count improvement: -1 
+
+Line 13
+Input: 3
+Valid String: 3
+Compressed binary code: 101100110
+Bit count improvement: -1 
+
+Line 14
+Input: 4
+Valid String: 4
+Compressed binary code: 101100111
+Bit count improvement: -1 
+
+Line 15
+Input: 5
+Valid String: 5
+Compressed binary code: 111100000
+Bit count improvement: -1 
+
+Line 16
+Input: 6
+Valid String: 6
+Compressed binary code: 111100001
+Bit count improvement: -1 
+
+Line 17
+Input: 7
+Valid String: 7
+Compressed binary code: 111100010
+Bit count improvement: -1 
+
+----------------------------------------------------------------------------------------------
+--------------------------------------FREQUENCY TABLE-----------------------------------------
+A:19
+B:16
+C:17
+D:11
+E:42
+F:12
+G:14
+H:17
+I:16
+J:5
+K:10
+L:20
+M:19
+N:24
+O:18
+P:13
+Q:1
+R:25
+S:35
+T:25
+U:15
+V:5
+W:21
+X:2
+Y:8
+Z:3
+Â:2
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1

@@ -1,0 +1,12 @@
+@Book{Miller,
+  author    = {Miller, Bradley N. and Ranum, David L.},
+  publisher = {Franklin Beedle & Associates},
+  title     = {Problem Solving with Algorithms and Data Structures Using Python},
+  isbn      = {9781590282571},
+  pages     = {438},
+}
+
+@Electronic{,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -1,0 +1,86 @@
+----------------------------------------OUTPUT SUMMARY----------------------------------------
+File name: Input\RequiredInput.txt
+Total number of lines evaluated: 18
+Number of lines containing valid prefix expressions: 6
+Line numbers not containing valid prefix expressions:
+[6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+----------------------------------------------------------------------------------------------
+---------------------------------------LINE BREAKDOWN-----------------------------------------
+Line 1
+Input:-+ABC
+Valid prefix expression: -+ABC
+Postfix conversion: AB+C-
+----------------------------------------------------------------------------------------------
+Line 2
+Input:-A+BC
+Valid prefix expression: -A+BC
+Postfix conversion: ABC+-
+----------------------------------------------------------------------------------------------
+Line 3
+Input:$+-ABC+D-EF
+Valid prefix expression: $+-ABC+D-EF
+Postfix conversion: AB-C+DEF-+$
+----------------------------------------------------------------------------------------------
+Line 4
+Input:-*A$B+C-DE*EF
+Valid prefix expression: -*A$B+C-DE*EF
+Postfix conversion: ABCDE-+$*EF*-
+----------------------------------------------------------------------------------------------
+Line 5
+Input:**A+BC+C-BA
+Valid prefix expression: **A+BC+C-BA
+Postfix conversion: ABC+*CBA-+*
+----------------------------------------------------------------------------------------------
+Line 6
+Input:/A+BC +C*BA  
+Line 6 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 7
+Input:*-*-ABC+BA  
+Line 7 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 8
+Input:/+/A-BC-BA  
+Line 8 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 9
+Input:*$A+BC+C-BA 
+Valid prefix expression: *$A+BC+C-BA
+Postfix conversion: ABC+$CBA-+*
+----------------------------------------------------------------------------------------------
+Line 10
+Input://A+B0-C+BA
+Line 10 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 11
+Input:*$A^BC+C-BA					
+Line 11 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 12
+Input:						
+Line 12 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 13
+Input:				
+Line 13 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 14
+Input:					
+Line 14 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 15
+Input:					
+Line 15 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 16
+Input:	
+Line 16 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 17
+Input:
+Line 17 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 18
+Input:
+Line 18 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------

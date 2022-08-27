@@ -1,0 +1,72 @@
+----------------------------------------OUTPUT SUMMARY----------------------------------------
+File name: Input\TestCases.txt
+Total number of lines evaluated: 14
+Number of lines containing valid prefix expressions: 8
+Line numbers not containing valid prefix expressions:
+[1, 2, 7, 8, 12, 14]
+----------------------------------------------------------------------------------------------
+---------------------------------------LINE BREAKDOWN-----------------------------------------
+Line 1
+Input:THIS IS A TEST
+Line 1 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 2
+Input:-A+B+C4A5
+Line 2 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 3
+Input:+AB
+Valid prefix expression: +AB
+Postfix conversion: AB+
+----------------------------------------------------------------------------------------------
+Line 4
+Input:+A*BC
+Valid prefix expression: +A*BC
+Postfix conversion: ABC*+
+----------------------------------------------------------------------------------------------
+Line 5
+Input:* + A B C
+Valid prefix expression: *+ABC
+Postfix conversion: AB+C*
+----------------------------------------------------------------------------------------------
+Line 6
+Input:* + A B C		
+Valid prefix expression: *+ABC
+Postfix conversion: AB+C*
+----------------------------------------------------------------------------------------------
+Line 7
+Input:+ + A * B C D /
+Line 7 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 8
+Input:+ + A * B C D E
+Line 8 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 9
+Input:* + A B + C D
+Valid prefix expression: *+AB+CD
+Postfix conversion: AB+CD+*
+----------------------------------------------------------------------------------------------
+Line 10
+Input:+ * A B * C D
+Valid prefix expression: +*AB*CD
+Postfix conversion: AB*CD*+
+----------------------------------------------------------------------------------------------
+Line 11
+Input:+ + + A B C D
+Valid prefix expression: +++ABCD
+Postfix conversion: AB+C+D+
+----------------------------------------------------------------------------------------------
+Line 12
+Input:		+AB		+A*BC
+Line 12 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
+Line 13
+Input:				* + A B C
+Valid prefix expression: *+ABC
+Postfix conversion: AB+C*
+----------------------------------------------------------------------------------------------
+Line 14
+Input:+A*BC+A*BC+A*BC+
+Line 14 does not contain a valid prefix expression
+----------------------------------------------------------------------------------------------
